@@ -1,0 +1,145 @@
+/* Set font size and line height */
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* set flexbox and styling for header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(247, 65, 95);
+    color: #fff;
+    margin-left: 1px;
+    margin-right: 1px;
+    }
+
+/* set styling for h1 */
+h1 {
+    font-family: sans-serif;
+    color: bisque;
+    margin: 1%;
+}
+
+/* set styling for h2 */
+h2 {
+    margin: 3%;
+    font-size: 200%;
+}
+/* Move nav away from right margin */
+nav {
+    padding-right: 2%;
+}
+
+/* styling for unordered list */
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 330px;
+    list-style-type: none;
+}
+
+/* styling for header navigation links */
+nav a {
+    color:bisque;
+    text-decoration: none;
+}
+/* background and cool subtitle */
+#subtitle {
+     display: flex;
+     justify-content:end;
+     background-image: url("../images/header_background.png");
+     background-repeat: no-repeat;
+     background-size: 100%;
+     padding-top: 5%;
+      } 
+
+/* formatting for background image text     */
+h2 {
+    background-color: rgb(247, 65, 95);
+    color: bisque;
+    justify-content:end;
+}
+/* set radius for image */
+img {
+    border-radius: 18px;
+}
+/* initial settings for first section  */
+div {
+    display: flex;
+    justify-content: left;
+    max-width: 70%; 
+}
+/* initial settings for sections */
+main {
+    display: flex;
+    justify-content: left;
+}
+/* main set up  */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
+
+/* initial settings for about me  */
+#about_me {
+    display: flex;
+    padding: 50px;
+    margin: 3%;
+    margin-left: 10%;
+    max-width: 70%;
+    align-items: center;
+}
+/* display attributes for name in bio  */
+h3 {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    margin: 3%;
+}
+/* formatting for about me narrative */
+#verbiager {
+    display:flex;
+    padding: 5px;
+    margin: 3%;
+    align-items:flex-end;
+}
+
+/* formatting for work links */
+.work {
+    display: flex;
+    padding: 50px;
+    margin: 3%;
+    margin-left: 10%;
+    max-width: 70%;
+    align-items: center;
+}
+
+.homework1 {
+    background-image: url(./assets/images/code_refactor.jpeg);
+}
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    flex direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
+
+.flex-layout {
+    display: flex;
+    flex-wrap:wrap;
+    flex ###3;
+}
+body {
+    width: 96%;
+    margin: 2rem auto;
+}
