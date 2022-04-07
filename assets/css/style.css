@@ -29,6 +29,8 @@ h1 {
 h2 {
     margin: 3%;
     font-size: 200%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 /* Move nav away from right margin */
 nav {
