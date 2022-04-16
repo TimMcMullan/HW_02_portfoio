@@ -50,6 +50,12 @@ nav a {
     color:bisque;
     text-decoration: none;
 }
+
+.contact_info {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
 /* background and cool subtitle */
 #subtitle {
      display: flex;
@@ -69,17 +75,19 @@ h2 {
 /* set radius for image */
 img {
     border-radius: 18px;
+    box-shadow: .5rem .5rem .5rem #000;
 }
 /* initial settings for first section  */
-div {
-    display: flex;
-    justify-content: left;
-    max-width: 70%; 
+.right_column {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
 }
 /* initial settings for sections */
 main {
     display: flex;
     justify-content: left;
+    flex-wrap: wrap;
 }
 /* main set up  */
 .row {
@@ -91,36 +99,33 @@ main {
 }
 
 /* initial settings for about me  */
-#about_me {
+.about_me {
     display: flex;
-    padding: 50px;
-    margin: 3%;
-    margin-left: 10%;
-    max-width: 70%;
+    padding: 2rem;
+    margin: 1%;
     align-items: center;
-}
+} 
 /* display attributes for name in bio  */
 h3 {
     display: flex;
-    justify-content: end;
-    padding: 10px;
-    margin: 3%;
+    align-items: center;
+    padding: 1rem;
+    margin: 1%;
 }
 /* formatting for about me narrative */
 #verbiager {
-    display:flex;
-    padding: 5px;
+    display: flex;
+    padding: 2rem;
     margin: 3%;
-    align-items:flex-end;
+    align-items: center;
 }
 
 /* formatting for work links */
 .work {
     display: flex;
-    padding: 50px;
-    margin: 3%;
-    margin-left: 10%;
-    max-width: 70%;
+    padding: 2rem;
+    margin: 1%;
+    margin-left: 2%;
     align-items: center;
 }
 
@@ -130,18 +135,40 @@ h3 {
 
 .layout {
     display: flex;
-    flex-wrap: wrap;
-    flex direction: row;
-    margin-left: -1.5rem;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    margin-left: 1.5rem;
     margin-right: -1.5rem;
 }
 
 .flex-layout {
     display: flex;
-    flex-wrap:wrap;
-    flex ###3;
+    /* flex-wrap:wrap; */
 }
 body {
     width: 96%;
     margin: 2rem auto;
+}
+
+.about_me_top {
+    /* width: 70%; */
+    flex-wrap: nowrap;
+}
+
+#contact {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#contact_me {
+    margin: 2%;
+    display: flex;
+    padding: 2rem;
+    box-sizing: content-box;
+    border: solid;
+    border-color: #000;
+    border-width: .25rem;
+    border-radius: .25rem;
+    width: 25rem;
+    box-shadow: 2 1 gray;
 }
