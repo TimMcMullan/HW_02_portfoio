@@ -27,7 +27,7 @@ h1 {
 
 /* set styling for h2 */
 h2 {
-    margin: 3%;
+    margin: 2%;
     font-size: 200%;
     padding-left: 1%;
     padding-right: 1%;
@@ -55,6 +55,7 @@ nav a {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+    padding: 2rem;
 }
 /* background and cool subtitle */
 #subtitle {
@@ -111,23 +112,25 @@ h3 {
     align-items: center;
     padding: 1rem;
     margin: 1%;
+    white-space: nowrap;
+    justify-content: center;
 }
 /* formatting for about me narrative */
 #verbiager {
     display: flex;
-    padding: 2rem;
-    margin: 3%;
+    padding: 1rem;
+    margin: 1%;
     align-items: center;
 }
 
 /* formatting for work links */
-.work {
+/* .work {
     display: flex;
     padding: 2rem;
     margin: 1%;
     margin-left: 2%;
     align-items: center;
-}
+} */
 
 .homework1 {
     background-image: url(../images/code_refactor.jpeg);
@@ -138,12 +141,13 @@ h3 {
     /* flex-wrap: wrap; */
     flex-direction: row;
     margin-left: 1.5rem;
-    margin-right: -1.5rem;
+    margin-top: 1rem
 }
 
 .flex-layout {
     display: flex;
-    /* flex-wrap:wrap; */
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 body {
     width: 96%;
@@ -157,7 +161,7 @@ body {
 
 #contact {
     width: 100%;
-    flex-wrap: wrap;
+    white-space: nowrap;
 }
 
 #contact_me {
@@ -170,5 +174,56 @@ body {
     border-width: .25rem;
     border-radius: .25rem;
     width: 25rem;
-    box-shadow: 2 1 gray;
+    white-space: nowrap;
+}
+
+.work_projects {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.project_names {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-top: 0rem;
+    margin: 1%;
+    height: 6rem;
+    font-weight: bold;
+}
+
+#hw01 {
+    background-image: url("../images/HW01.jpg");
+    background-size: cover;
+    height: 10rem;
+    color:white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#hw02 {
+    background-image: url("../images/hw02.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hw03 {
+    background-image: url("../images/hw03.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+#hw04 {
+    background-image: url("../images/HW04.png");
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    color: gray;
+}
+#hw05 {
+    background-image: url("../images/HW05.jpg");
+    background-size: cover;
 }
