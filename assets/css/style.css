@@ -181,6 +181,11 @@ body {
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 1rem;
+    border:#000;
+    box-sizing: content-box;
+    border-color: black;
+    border-width: .25rem;
+    border-radius: 1rem;
 }
 
 .project_names {
@@ -226,4 +231,10 @@ body {
 #hw05 {
     background-image: url("../images/HW05.jpg");
     background-size: cover;
+}
+
+#hw06 {
+    background-image: url("../images/HW06.jpg");
+    background-size: cover;
+    color: darkgray;
 }
