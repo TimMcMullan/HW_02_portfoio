@@ -131,14 +131,6 @@ h3 {
     align-items: center;
 }
 
-/* formatting for work links */
-/* .work {
-    display: flex;
-    padding: 2rem;
-    margin: 1%;
-    margin-left: 2%;
-    align-items: center;
-} */
 
 .homework1 {
     background-image: url(../images/code_refactor.jpeg);
@@ -150,12 +142,6 @@ h3 {
     flex-direction: row;
     margin-left: 1.5rem;
     margin-top: 1rem
-}
-
-.flex-layout {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
 }
 
 body {
@@ -184,6 +170,7 @@ body {
     border-radius: .25rem;
     width: 25rem;
     white-space: nowrap;
+    box-shadow: .75rem .5rem #888888;
 }
 
 .work_projects {
@@ -194,6 +181,7 @@ body {
     margin: 1.5rem;
     border: .25rem solid black;
     border-radius: .5rem;
+    box-shadow: .75rem .5rem #888888;
 }
 
 .project_names {
