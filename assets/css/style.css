@@ -238,3 +238,8 @@ body {
     background-size: cover;
     color: darkgray;
 }
+
+#project1 {
+    background-image: url("../images/Project1.jpeg");
+    background-size: cover;
+}
