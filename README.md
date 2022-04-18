@@ -30,5 +30,9 @@ Here's how you contact the author.
 ![The contact Me section includes multiple ways to get in touch with the author.](./assets/images/contact_me_pic.png)
 
 Sample works from the designer.
-![the Work section is an aside that shows an image and name of each project, along with it's class designation (HWxx).](./assets/images/works_pics.png)
+![The Work section is an aside that shows an image and name of each project, along with it's class designation (HWxx).](./assets/images/works_pics.png)
+
+The site is responsive to a point.
+![Responsive to a point](/assets/images/responsiveness_pic.png)
+
 
