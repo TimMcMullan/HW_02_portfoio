@@ -9,6 +9,8 @@ As a user, I expect to be able to experience one of the author's works by clicki
 
 The visitor should be able to have an information page quickly load.  A nice header with a navigation bar should be prominant on the page.  I should be able to find out more about the author by seeing his picture and viewing his previous efforts.  I should be able to go to sites showing previous works by clicking on the images representative of those works.
 
+The site should be responsive when the window resizes.
+
 # Assets
 
 Class, classmates, TAs and instructor, along with expereince and allocating time to focus on the project
