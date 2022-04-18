@@ -213,14 +213,14 @@ body {
 }
 
 #hw02 {
-    background-image: url("assets/images/HW02.jpg");
+    background-image: url("../images/HW02.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #hw03 {
-    background-image: url("assets/images/HW03.png");
+    background-image: url("../images/HW03.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
