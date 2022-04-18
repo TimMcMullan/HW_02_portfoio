@@ -220,7 +220,7 @@ body {
 }
 
 #hw03 {
-    background-image: url("./assets/images/HW03.png");
+    background-image: url("../assets/images/HW03.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -228,7 +228,7 @@ body {
 }
 
 #hw04 {
-    background-image: url("./images/HW04.png");
+    background-image: url("../images/HW04.png");
     /* background-repeat: no-repeat; */
     background-size: contain;
     color: gray;
